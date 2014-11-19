@@ -1,0 +1,11 @@
+<!-- Templates can call controller actions -->
+<a href="#" {{action "actionFunction" }}>Click me</a>
+
+<!-- Templates have access to controller properties -->
+<h1>{{ controllerProperty }}</h1>
+
+<!-- ObjectController will proxy to its model -->
+<h2>{{ name }} is the same as {{ model.name }}</h2>
+
+<!-- Templates can get view properties with 'view.' -->
+<h3>{{ view.viewProperty }}</h3>
