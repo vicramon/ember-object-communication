@@ -6,7 +6,7 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.resource('post', { path: 'post/:post_id' });
+  this.resource('post', { path: 'posts/:post_id' });
 });
 
 export default Router;
